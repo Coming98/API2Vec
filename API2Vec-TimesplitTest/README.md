@@ -11,7 +11,6 @@ Tips: API sequence information need to be processed manually as tabular file in 
 - pid: process ID of API call
 - ppid: parent process ID of API call
 - timestamp: timestamp of API call
-- status: status information of API execution (`SUCCESS` or `FALIURE`)
 
 ## Data Process
 
@@ -19,7 +18,7 @@ Use the `./DataProcess/*` for data preprocessing:
 1. `./DataProcess/process_api_sequence`: process raw dataset for graph modeling and heuristic random walk
 2. `./DataProcess/process_corpus`: graph modeling and heuristic random walk
 3. `./DataProcess/api2vec`: generate embedding using doc2vec or word2vec
-4. ``./DataProcess/process_dataloader`:  data encapsulation of subsequent malware detection models
+4. `./DataProcess/process_dataloader`:  data encapsulation of subsequent malware detection models
 
 ## Malware Detection
 
